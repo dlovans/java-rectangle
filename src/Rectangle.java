@@ -40,4 +40,20 @@ public class Rectangle {
         this.width = width;
         this.height = height;
     }
+
+    /**
+     * Creates an instance of Rectangle with specified values.
+     *
+     * @param x - x coordinate.
+     * @param y - y coordinate.
+     * @param width - Width of rectangle.
+     * @param height - Height of rectangle.
+     */
+    public Rectangle(double x, double y, double width, double height) {
+        this.x = x;
+        this.y = y;
+        this.width = width;
+        this.height = height;
+    }
+
 }
