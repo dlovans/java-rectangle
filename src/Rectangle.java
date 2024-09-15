@@ -84,4 +84,13 @@ public class Rectangle {
         this.x = x;
         this.y = y;
     }
+
+    /**
+     * Sets the width of the rectangle.
+     *
+     * @param width - Width of rectangle.
+     */
+    public void setWidth(double width) {
+        this.width = width;
+    }
 }
