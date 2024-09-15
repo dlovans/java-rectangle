@@ -93,4 +93,13 @@ public class Rectangle {
     public void setWidth(double width) {
         this.width = width;
     }
+
+    /**
+     * Sets the height of the rectangle.
+     *
+     * @param height - Height of the rectangle.
+     */
+    public void setHeight(double height) {
+        this.height = height;
+    }
 }
