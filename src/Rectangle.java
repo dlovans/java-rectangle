@@ -56,4 +56,12 @@ public class Rectangle {
         this.height = height;
     }
 
+    /**
+     * Calculates the area of the rectangle.
+     *
+     * @return - The area of rectangle.
+     */
+    public double calculateArea() {
+        return this.width * this.height;
+    }
 }
