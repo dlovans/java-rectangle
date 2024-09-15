@@ -28,4 +28,16 @@ public class Rectangle {
         this.width = 0;
         this.height = 0;
     }
+
+    /**
+     * Creates an instance of Rectangle with default and specified values.
+     * @param width - Width of rectangle.
+     * @param height - Height of rectangle.
+     */
+    public Rectangle(double width, double height) {
+        this.x = 0;
+        this.y = 0;
+        this.width = width;
+        this.height = height;
+    }
 }
