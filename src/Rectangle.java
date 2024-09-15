@@ -64,4 +64,13 @@ public class Rectangle {
     public double calculateArea() {
         return this.width * this.height;
     }
+
+    /**
+     * Calculates the perimeter of the rectangle.
+     *
+     * @return - Perimeter of rectangle.
+     */
+    public double calculatePerimeter() {
+        return this.width * 2 + this.height * 2;
+    }
 }
