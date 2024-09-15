@@ -73,4 +73,15 @@ public class Rectangle {
     public double calculatePerimeter() {
         return this.width * 2 + this.height * 2;
     }
+
+    /**
+     * Sets the X and Y coordinates.
+     *
+     * @param x - x coordinate.
+     * @param y - y coordinate.
+     */
+    public void setXY(double x, double y) {
+        this.x = x;
+        this.y = y;
+    }
 }
