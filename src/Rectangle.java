@@ -102,4 +102,20 @@ public class Rectangle {
     public void setHeight(double height) {
         this.height = height;
     }
+
+    /**
+     * Getter for Y-coordinate.
+     * @return - y coordinate.
+     */
+    public double getY() {
+        return y;
+    }
+
+    /**
+     * Getter for X-coordinate.
+     * @return - x coordinate.
+     */
+    public double getX() {
+        return x;
+    }
 }
