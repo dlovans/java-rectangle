@@ -75,6 +75,23 @@ public class Rectangle {
     }
 
     /**
+     * Getter for Y-coordinate.
+     * @return - y coordinate.
+     */
+    public double getY() {
+        return y;
+    }
+
+    /**
+     * Getter for X-coordinate.
+     * @return - x coordinate.
+     */
+    public double getX() {
+        return x;
+    }
+
+
+    /**
      * Sets the X and Y coordinates.
      *
      * @param x - x coordinate.
@@ -101,21 +118,5 @@ public class Rectangle {
      */
     public void setHeight(double height) {
         this.height = height;
-    }
-
-    /**
-     * Getter for Y-coordinate.
-     * @return - y coordinate.
-     */
-    public double getY() {
-        return y;
-    }
-
-    /**
-     * Getter for X-coordinate.
-     * @return - x coordinate.
-     */
-    public double getX() {
-        return x;
     }
 }
