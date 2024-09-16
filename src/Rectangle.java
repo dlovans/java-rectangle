@@ -135,4 +135,23 @@ public class Rectangle {
     public void setHeight(double height) {
         this.height = height;
     }
+
+    /**
+     * Checks if two rectangles overlap.
+     * @param rectangleOne - Rectangle object.
+     * @param rectangleTwo - Rectangle object.
+     */
+    public static void checkCollision(Rectangle rectangleOne, Rectangle rectangleTwo) {
+        boolean absentOverlap =
+                rectangleOne.getX() + rectangleOne.getWidth() <= rectangleTwo.getX() ||
+                rectangleTwo.getX() + rectangleTwo.getWidth() <= rectangleOne.getX() ||
+                rectangleOne.getY() + rectangleOne.getHeight() <= rectangleTwo.getY() ||
+                rectangleTwo.getY() + rectangleTwo.getHeight() <= rectangleOne.getY();
+
+        if (absentOverlap) {
+            System.out.println("Rectangles do NOT overlap!");
+        } else {
+            System.out.println("Rectangles overlap!");
+        }
+    }
 }
