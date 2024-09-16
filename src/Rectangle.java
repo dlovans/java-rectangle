@@ -103,6 +103,22 @@ public class Rectangle {
     }
 
     /**
+     * Getter for width.
+     * @return - Width of rectangle.
+     */
+    public double getWidth() {
+        return width;
+    }
+
+    /**
+     * Getter for height.
+     * @return - Height of rectangle.
+     */
+    public double getHeight() {
+        return height;
+    }
+
+    /**
      * Sets the width of the rectangle.
      *
      * @param width - Width of rectangle.
